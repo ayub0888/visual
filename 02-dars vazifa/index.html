@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02vazifa.css">
+    <title> JavaScript Where To </title>
+</head>
+<body id="JSOutput"><br>
+
+
+<ul id="ulli" style="padding: 15px; margin-left: 10px;"><br>      
+    <a href="index.html"class="aheref">JS Where To </a>    <a href="JS Statements.html"class="aheref">JS Statements</a>    <a href="JS Syntax.html"class="aheref">JS Syntax</a>   <a href="JS Commenters.html" class="aheref">JS Commenters</a>    <a href="JSoutput.html" class="aheref">JS Output</a>
+        </ul><br>
+
+
+<h1>
+    ⚜️JavaScript in &lt;head> or &lt;body>
+</h1>
+
+<p>
+    You can place any number of scripts in an HTML document.
+</p>
+
+<p>
+    <b>
+        Scripts can be placed in the &lt;body>, or in the &lt;head> section of an HTML page, or in both.
+    </b>
+</p>
+
+
+    <!-- sarlovha -->
+<h1>
+    🗿JavaScript in &lt;head>
+</h1>
+
+<p>
+    <mark>
+        In this example, a JavaScript function is placed in the &lt;head> section of an HTML page.
+    </mark>
+</p>
+
+<p>
+    The function is invoked (called) when a button is clicked:
+</p>
+
+
+
+    <!-- sarlovha  -->
+<h2>
+    🔋Example
+</h2>
+
+
+
+    <!-- sarlovhadan code  -->
+
+<p>
+<pre>
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;script>
+function myFunction() {
+document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+&lt;/script>
+&lt;/head>
+&lt;body>
+&lt;h2>Demo JavaScript in Head&lt;/h2>
+
+&lt;p id="demo">A Paragraph&lt;/p>
+&ly;button type="button" onclick="myFunction()">Try it&lt;/button>
+
+&lt;/body>
+&lt;/html>
+</p>
+</pre>
+
+    <!-- sarlovha  -->
+
+<h2>
+    ⌛️JavaScript in &lt;body>
+</h2>
+
+<p>
+    In this example, a JavaScript <mark> function </mark> is placed in the<mark> &lt;body></mark> section of an HTML page.
+</p>
+
+
+
+
+    <!-- sarlovha code  -->
+
+<p>
+    The function is invoked (called) when a button is clicked:
+</p>
+
+<h2>
+    🛡Example
+</h2>
+
+
+    <!-- sarlovha code  -->
+
+<p>
+<pre>
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;body>
+
+&lt;h2>Demo JavaScript in Body&lt;/h2>
+
+&lt;p id="demo">A Paragraph&lt;/p>
+
+&lt;button type="button" onclick="myFunction()">Try it&lt;/button>
+
+&lt;;script>
+function myFunction() {
+document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+&lt;/script>
+&lt;/body>
+&lt;/html>
+</pre>
+</p>
+<pre>
+<p>
+<mark>Placing scripts at the bottom of the &lt;body> element improves the display speed,
+because script interpretation slows down the display.</mark>
+</p>
+</pre>
+
+
+
+    <!-- sarlovha  -->
+<h2>
+    🛎External JavaScript
+</h2>
+<p>
+    Scripts can also be placed in external files:
+</p>
+
+
+    <!-- sarlovha  -->
+
+<pre>
+<p>
+    <mark >function</mark> myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+    }
+</p>
+</pre>
+
+
+
+    <!-- sarlovha -->
+
+<pre><p>
+External scripts are practical when the same code is used in many different web
+pages
+</p>
+</pre>
+
+<p>
+    JavaScript files have the file extension <b>.js.</b>
+</p>
+
+    <!-- sarlovha code  -->
+
+<pre>
+<p>
+To use an external script, put the name of the script file in the src (source) attribute
+of a &lt;script> tag:
+</p>
+</pre>
+
+
+
+
+    <!-- sarlovha  -->
+<h2>
+    📝Example
+</h2>
+
+
+    <!-- sarlovha code  -->
+
+<p>
+<mark>
+    &lt;script src="myScript.js">&lt;/script>
+</mark>
+</p>
+
+
+    <!-- sarlovha  -->
+
+<p>
+    You can place an external script reference in &lt;head> or &lt;body> as you like.
+</p>
+
+<p>
+    The script will behave as if it was located exactly where the &lt;script> tag is located.
+</p>
+
+
+
+
+    <!-- sariq fon  -->
+<mark>
+    External scripts cannot contain &lt;script> tags.
+</mark>
+
+
+
+    <!-- sarlovha  -->
+<h2>
+    🔕External JavaScript Advantages
+</h2>
+
+
+    <!-- sarlovha   -->
+
+<p>
+    Placing scripts in external files has some advantages:
+</p>
+
+
+    <!-- sarlovha code  -->
+
+<ul>
+    <li>
+        It separates HTML and code
+    </li>
+    <li>
+        It makes HTML and JavaScript easier to read and maintain
+    </li>
+    <li>
+        Cached JavaScript files can speed up page loads
+    </li>
+</ul>
+<p>
+    To add several script files to one page  - use several script tags:
+</p>
+
+
+
+
+    <!-- sarlovha  -->
+<h2>
+    🔏Example
+</h2>
+
+
+    <!-- sarlovha code  -->
+<pre><p>
+&lt;script src="myScript1.js">&lt;/script>
+&lt;script src="myScript2.js">&lt;/script>
+</p>
+</pre>
+
+
+
+
+
+    <!-- sarlovha code  -->
+<h2>
+    📬External References
+</h2>
+
+<p>
+    An external script can be referenced in 3 different ways:
+</p>
+
+
+    <!-- sarlovha code  -->
+
+<ul>
+    <li>
+        With a full URL (a full web address)
+    </li>
+    <li>
+        With a file path (like /js/)
+    </li>
+    <li>
+        Without any path
+    </li>
+</ul>
+
+<p>
+    This example uses a <b> full URL </b> to link to myScript.js:
+</p>
+
+
+
+    <!-- sarlovha code  -->
+
+<h2>
+    🧱Example
+
+
+    <!-- sarlovha rasm-->
+
+</h2>
+&lt;script src="https://www.w3schools.com/js/myScript.js">&lt;/script>
+</p>
+
+<p>
+    This example uses a <b> file path </b> to link to myScript.js:
+</p>
+
+
+
+
+    <!-- sarlovha code  -->
+
+
+<h2>
+    🔋Example
+</h2>
+
+
+    <!-- sarlovha rasm  -->
+
+<p>
+    &lt;script src="/js/myScript.js">&lt;/script>
+</p>
+
+<p>
+    This example uses no path to link to myScript.js:
+</p>
+
+
+
+    <!-- sarlovha -->
+
+
+<h2>
+    🦠Example
+</h2>
+
+
+    <!-- sarlovha code  -->
+<p>
+    &lt;script src="myScript.js">&lt;/script>
+</p>
+
+<merk>
+    You can read more about file paths in the chapter HTML File Paths.
+</merk>
+<br><br><br>
+
+
+<a href=""></a>
+<br><br>
+
+
+
+<div class="menular">
+    Report Error
+</div><div class="menular">
+    <a href="https://www.w3schools.com/spaces/" style="color: honeydew;">Spaces</a>
+</div><div class="menular">
+    <a href="https://www.w3schools.com/pro/index.php" style="color: honeydew;" >Upgrate</a>
+</div><div class="menular">
+    <a href="https://campus.w3schools.com/pages/newsletter" style="color: honeydew;" >Newsletter</a>
+</div><div class="menular">
+    <a href="https://shop.w3schools.com/collections/certifications" style="color: honeydew;" >Get Cerificed</a>
+</div>
+
+
+
+
+
+
+<br><br><br>
+</body>
+</html>

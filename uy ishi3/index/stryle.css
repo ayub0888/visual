@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color:blanchedalmond;
+}
+/* .rasmlar{
+  text-align: center;
+  padding: 0 50px;
+} */
+
+.rasm{
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.rasm:hover{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,3,0,0.2));
+  padding: 20px;
+}
+
+
+.rasmm{
+  margin: 20px;
+  display: inline-block;
+}
+
+/* .rasmlar image{
+  width: 250px;
+  height: 250px;
+} */
+
+.summ{
+  color: orange;
+}
+
+.rasmm{
+  border: 0px solid;
+  background-color: white;
+}
+
+.sentrsoz{
+  border: 2px solid rgb(245, 203, 152);
+  color: black;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin: 0 610px 30px;
+  border-radius: 10px;
+}
+.sentrsoz:hover{
+  background-color: orange;
+  color: aliceblue;
+}
+
+.pastkiqsm{
+  background-color: rgb(54, 32, 0);
+  padding: 40px;
+}
+
+.pastkiqsm:hover{
+  background-color: chocolate;
+}
+
+/* .rasm:hover{
+  background-color:coral;
+} */
+
+.rasm image:hover{
+  background-color: black;
+}

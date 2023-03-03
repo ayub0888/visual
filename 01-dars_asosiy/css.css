@@ -1,0 +1,47 @@
+*{
+
+  background: rgb(242, 242, 237);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  background-color: rgb(249, 243, 237);
+  width: 600px;
+  width: 750px;
+  margin: auto;
+}
+
+#imgg{
+  width: 800px;
+}
+
+#imggg{
+  width: 500px;
+}
+
+
+
+
+a{
+  color:rgb(21, 4, 203) ;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+
+#a4{
+  border: 3px solid rgb(58, 58, 89);
+  padding: 10px 10px 10px 10px;
+}
+
+
+#tepagaa{
+  text-align :right;
+}
+
+.divv1{
+  border: 0px solid beige;
+  background-color: rgb(151, 56, 56);
+}

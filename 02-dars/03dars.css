@@ -1,0 +1,28 @@
+* {
+  text-align: center;
+}
+
+.contact {
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 600px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.patki {
+  background-color: rgb(227, 165, 84);
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact:hover {
+  background-color: orange;
+}
+
+.cards {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}

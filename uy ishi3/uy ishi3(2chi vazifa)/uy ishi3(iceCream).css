@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.rasm{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    transition: all 500ms cubic-bezier(0.92, 1.86, 1, -4.99);
+}
+
+.rasm:hover{
+    background-image: -webkit-repeating-radial-gradient();
+    background-attachment: fixed;
+}
+
+
+.pastkiqsm{
+    background-color: rgb(54, 32, 0);
+    padding: 90px;
+  }
+  
+  .pastkiqsm:hover{
+    background-color: chocolate;
+  }
+
+.btag{
+    padding: 40px;
+    margin: 50px;
+}
+
+.sentrsoz{
+    border: 2px solid rgb(245, 203, 152);
+    color: black;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 0 610px 30px;
+    border-radius: 10px;
+  }
+  .sentrsoz:hover{
+    background-color: orange;
+    color: aliceblue;
+  }

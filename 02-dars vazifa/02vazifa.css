@@ -1,0 +1,240 @@
+* {
+  width: 600px;
+  width: 750px;
+  margin: auto;
+  text-decoration: none;
+}
+
+#ulli {
+  background-color: #6fad70;
+  color: #fff;
+  border-radius: 25px;
+  overflow: auto;
+  text-decoration-color: cadetblue;
+  text-align: center;
+}
+
+#ulli a {
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.aheref {
+  border: 2px solid rgb(35, 9, 1);
+  background-color: #80cea7;
+  border-radius: 40px;
+}
+
+#JSOutput ul .aheref:hover {
+  background-color: rgb(60, 40, 40);
+}
+
+#divbowi {
+  border: 5px solid slategray;
+  height: 200px;
+  width: 400px;
+  margin: 10px 10px 10px 10px;
+  padding: 40px 30px 30px 30px;
+}
+
+.h2example {
+  border: 5px solid slategray;
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  padding: 10px 10px 10px 0;
+}
+
+.example2 {
+  border: 0px solid slategray;
+  width: 510px;
+  background-color: slategray;
+}
+
+.yellowbcrond {
+  background-color: rgb(224, 219, 134);
+  width: 750px;
+  padding: 20px 20px 20px 20px;
+}
+
+/* JavaScript Output niki */
+#JSOutput {
+  padding: 16px 32px 32px 32px;
+  border-right: 1px solid #f1f1f1;
+  float: left;
+  display: block;
+}
+/* JavaScript Output niki */
+
+/* JavaScript Statements bowi */
+#examplee {
+  border: 5px solid gray;
+  padding: 10px 10px 20px 10px;
+  border-radius: 35px;
+}
+
+.yourself {
+  border: 2px solid green;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  background-color: #56ac57;
+  color: #f1f1f1;
+}
+
+.yourself:hover {
+  background-color: rgb(2, 63, 2);
+}
+
+.h22example {
+  border: 5px solid grey;
+  border-radius: 50px;
+  height: 150px;
+  padding: 15px 10px 10px 20px;
+}
+
+.documentget {
+  border: 1px solid gray;
+  padding: 0px 10px 10px 10px;
+  border-radius: 20px;
+  width: 711px;
+}
+
+#kalitsoz {
+  border: 3px solid gray;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+}
+
+#kalitsoz .toq {
+  border: 1px solid grey;
+  background-color: grey;
+  padding: 15px 15px;
+  width: 711px;
+  border-radius: 30px;
+}
+
+#kalitsoz .och {
+  border: 1px solid rgb(161, 156, 147);
+  background-color: rgb(161, 156, 147);
+  padding: 15px 15px;
+  width: 711px;
+  border-radius: 30px;
+}
+
+#kalitsoz .och:hover {
+  background-color: darkslategray;
+  color: #fff;
+  padding: 15px 15px;
+  width: 711px;
+  border-radius: 30px;
+}
+
+#kalitsoz .toq:hover {
+  background-color: darkolivegreen;
+  color: #fff;
+  padding: 15px 15px;
+  width: 711px;
+  border-radius: 30px;
+}
+/* JavaScript Statements oxiri */
+
+/* JavaScript Syntax JS statistikasi bowi!!! */
+
+#JSstatistikasi {
+  margin: 0;
+  padding: 0;
+}
+
+#divbir {
+  border: 2px solid rgb(106, 90, 90);
+  border-radius: 15px;
+  padding: 20px 20px;
+  background-color: cadetblue;
+  text-align: left;
+}
+
+.orqaaga {
+  border: 2px solid green;
+  background-color: #6fad70;
+  color: #fff;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+.orqaaga:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.next {
+  border: 2px solid green;
+  background-color: #6fad70;
+  color: #fff;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+.next:hover {
+  background-color: green;
+  color: #fff;
+}
+
+#ozgaruvchilar {
+  border: 1px solid greenyellow;
+  background-color: #d1f5e3;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 50px;
+}
+
+#ozgaruvchilar .howvaribles {
+  border: 0px solid beige;
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  width: 711px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.bixillar {
+  border: 3px solid gray;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+.yourselfliterals {
+  border: 2px solid green;
+  background-color: #6fad70;
+  color: #fff;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 15px;
+  height: 20px;
+  width: 130px;
+  text-align: center;
+}
+
+.yourselfliterals:hover {
+  background-color: green;
+  color: #fff;
+}
+/* JavaScript Syntax JS statistikasi oxiri!!! */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.menular {
+  border: 1px solid;
+  color: #f1f1f1;
+  background-color: rgb(41, 40, 40);
+  text-align: center;
+  padding: 5px;
+}
+
+.menular:hover {
+  background-color: green;
+  color: #f1f1f1;
+}
+
+#ulli .aheref {
+  margin-left: 20px;
+}

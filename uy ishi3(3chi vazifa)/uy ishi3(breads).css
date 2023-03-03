@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* .rasmbreads{
+    width: 650px;
+    height: 650px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+} */
+.breads{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* .breads h2 i{
+    border: 2px solid;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+} */
+
